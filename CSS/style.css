@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align-last: center;
+    margin-top: 40px;
+    
+}
+
+.menu {
+    width: 100%;
+    margin-top: 40px;
+}
+
+div {
+    float: left;
+}
+
+/* .Chicken {
+    border: 1px solid blue;
+    background-color: yellow;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.Beef {
+    border: 1px solid blue;
+    background-color: brown;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.Sushi {
+    border: 1px solid blue;
+    background-color: green;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+} */
+
+
+
+  
+
+
+
+  /********** Maximum devices only **********/
+@media (min-width: 992px) {
+    .Chicken {
+        border: 1px solid blue;
+        background-color: yellow;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .Beef {
+        border: 1px solid blue;
+        background-color: brown;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .Sushi {
+        border: 1px solid blue;
+        background-color: green;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }
+  }
+  /********** medium  devices only **********/
+@media (min-width: 767px) and (max-width: 991px) {
+    .Chicken {
+        border: 1px solid blue;
+        background-color: yellow;
+        width: 45%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .Beef {
+        border: 1px solid blue;
+        background-color: brown;
+        width: 45%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .Sushi {
+        border: 1px solid blue;
+        background-color: green;
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        
+    }
+  }
+
+  /********** minimum  devices only **********/
+@media (min-width: 50px) and (max-width: 767px) {
+    .Chicken {
+        border: 1px solid blue;
+        background-color: yellow;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .Beef {
+        border: 1px solid blue;
+        background-color: brown;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .Sushi {
+        border: 1px solid blue;
+        background-color: green;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        
+    }
+  }
+
+  .title_chicken {
+    background-color: purple;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+}
+.title_beef {
+    background-color: purple;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+}
+.title_sushi {
+    align-content: center;
+    background-color: purple;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+}
